@@ -1,0 +1,28 @@
+{
+  "name": "message-router-example",
+  "version": "0.0.1",
+  "description": "Example for Message Router",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olostan/message-router-example.git"
+  },
+  "keywords": [
+    "message",
+    "mda"
+  ],
+  "author": "olostan@gmail.com",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/olostan/message-router-example/issues"
+  },
+  "homepage": "https://github.com/olostan/message-router-example",
+  "dependencies": {
+    "message-router": "*",
+    "message-router-web":"*"
+  }
+}

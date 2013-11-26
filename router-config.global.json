@@ -1,0 +1,7 @@
+{
+    "api.*": {
+        "nodes":2,
+        "maxNodes": 10,
+        "concurrency":2
+    }
+}
