@@ -3,7 +3,7 @@ var router;
 function processTest(msg, next) {
     setTimeout(function () {
         msg.response = "Hello";
-        //router.send('log.inside',"We are inside");
+        router.send('log.inside',{msg:"We are inside"});
         next(msg);
 
     }, 2000)
@@ -16,5 +16,10 @@ module.exports = {
         })
         router = r;
     },
-    'api.test': processTest
+    'api.test': processTest,
+    '$config' : {
+        min: 2,
+        max: 10
+
+    }
 }
