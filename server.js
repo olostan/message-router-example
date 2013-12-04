@@ -1,4 +1,4 @@
-var router = require('../message-router/router.js');
+var router = require('message-router');
 
 router.use(require('message-router-web'));
 
