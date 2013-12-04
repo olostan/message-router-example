@@ -1,6 +1,6 @@
 {
     "web.receive" : "log.incomming",
     "log.incomming":"api.$call",
-    "api.*": "log.outF",
+    "@api.*": "log.out",
     "log.out":"web.reply"
 }
